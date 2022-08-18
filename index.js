@@ -11,12 +11,10 @@
     document.body.appendChild(img)
 }*/
 
- 
+const bunnyMove1 = document.getElementById("bunny-1");
 
-document.addEventListener("keydown", function (event) {
-    if (event.key === "ArrowLeft") {
-        document.getElementById("img").style.left = "200px";
-    }
-})
+function bunnyMove() {
+        document.getElementById("bunny-1").style.left = "200px";
+}
 
-bunnySpace1 ("./images/bunny-1.png", "bunny");
+/*bunnySpace1 ("./images/bunny-1.png", "bunny");*/
