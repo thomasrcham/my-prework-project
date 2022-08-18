@@ -11,10 +11,11 @@
     document.body.appendChild(img)
 }*/
 
+ 
 
 document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowLeft") {
-        document.getElementById("img").style.visibility = "hidden";
+        document.getElementById("img").style.left = "200px";
     }
 })
 
