@@ -1,9 +1,7 @@
-#game {
-   background-color: rgb(227, 255, 239);
-   height: 500px;
-   margin-left: 0;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   width: 80%;
- }
+body {
+   background-color: white;
+}
+
+img {
+   width: 100px;
+}

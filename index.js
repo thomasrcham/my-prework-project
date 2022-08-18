@@ -1,13 +1,21 @@
-let bunnySpace;
+/*let bunnySpace1;*/
 
-function bunnySpace1 (src, width, height, alt){
+/*function bunnySpace1 (src, alt){
     currentScene = 1;
     var img = document.createElement("img");
     img.src = src;
-    img.width = width;
-    img.height = height;
+    img.width = 100;
+    img.height = 200;
     img.alt = alt;
+    img.className = "bunny-1";
     document.body.appendChild(img)
-}
+}*/
 
-bunnySpace1 ("./images/bunny-1.png", 100, 100, "bunny");
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft") {
+        document.getElementById("img").style.visibility = "hidden";
+    }
+})
+
+bunnySpace1 ("./images/bunny-1.png", "bunny");
