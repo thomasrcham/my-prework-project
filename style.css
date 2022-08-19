@@ -16,7 +16,7 @@ img#bunny-2 {
    width: 100px;
    position: absolute;
    left: 200px;
-   visibility: hidden;
+   /*visibility: hidden*/;
 }
 
 img#bunny-3 {
@@ -24,7 +24,7 @@ img#bunny-3 {
    position: absolute;
    left: 125px;
    top: 205px;
-   visibility: hidden;
+   /*visibility: hidden*/;
 }
 
 img#bunny-4 {
