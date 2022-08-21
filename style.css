@@ -1,36 +1,49 @@
 body {
    background-color: white;
+
 }  
  
 * {   
    cursor: grab
 }
 
+div#text {
+   margin-left: 30px;
+   width: 70%;
+   font: Helvetica;
+}
 
 img#bunny-1 {
-   width: 100px;
+   width: 80px;
+   top: 150px;
+   left: 100px;
    position: absolute;
 }
 
 img#bunny-2 {
-   width: 100px;
+   width: 80px;
    position: absolute;
-   left: 200px;
-   /*visibility: hidden*/;
+   left: 400px;
+   top: 600px;
 }
 
 img#bunny-3 {
-   width: 100px;
+   width: 80px;
    position: absolute;
-   left: 125px;
-   top: 205px;
-   /*visibility: hidden*/;
+   left: 85px;
+   top: 550px;
 }
 
 img#bunny-4 {
-   width: 100px;
+   width: 80px;
+   position: absolute;
+   left: 120px;
+   top: 305px;
+}
+img#bunny-5 {
+   width: 80px;
    position: absolute;
    left: 220px;
-   top: 205px;
+   top: 305px;
    visibility: hidden;
 }
